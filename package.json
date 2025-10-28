@@ -1,0 +1,16 @@
+{
+  "name": "screen-record-upload-demo",
+  "version": "1.0.0",
+  "description": "uni-app screen recording and chunked upload demo",
+  "main": "main.js",
+  "scripts": {
+    "dev:h5": "cross-env NODE_ENV=development UNI_PLATFORM=h5 vue-cli-service uni-serve",
+    "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
+    "dev:app-android": "cross-env NODE_ENV=development UNI_PLATFORM=app-plus vue-cli-service uni-build --watch",
+    "build:app-android": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^2.0.0",
+    "@dcloudio/uni-ui": "^1.4.0"
+  }
+}

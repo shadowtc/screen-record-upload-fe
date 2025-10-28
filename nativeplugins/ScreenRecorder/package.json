@@ -1,0 +1,18 @@
+{
+  "name": "ScreenRecorder",
+  "id": "ScreenRecorder",
+  "version": "1.0.0",
+  "description": "Screen recording native plugin for uni-app",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "ScreenRecorder",
+          "class": "com.screenrecorder.ScreenRecorderModule"
+        }
+      ]
+    }
+  }
+}
